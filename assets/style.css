@@ -1,0 +1,57 @@
+/* add border-box */
+* {
+    box-sizing: border-box;
+}
+
+/* add background color */
+body {
+    background-color: white;
+}
+
+.header {
+    padding: 0px;
+    font-family: calibri;
+    background-color: rgb(22, 35, 36);
+    color: black;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+.header div {
+    padding-top: 10px;
+    margin-right: 30px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+a {
+    color:aqua;
+    text-align: right;
+}
+
+p {
+    text-align: right;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+  
