@@ -15,6 +15,7 @@ I could use more practice and tutoring to better layout a website using CSS and 
 ## Assets
 
 The following link for my website is available.
+https://pnam412.github.io/Challenge-2-CSS/
 
 
 
