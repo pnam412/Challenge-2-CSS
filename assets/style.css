@@ -39,30 +39,59 @@ body {
 }
 
 a {
-    color:aqua;
+    color: aqua;
     text-align: right;
 }
 
 p {
-    text-align: right;
+    text-align: left;
 }
-.content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 
-}
-image {
-    max-width: 30%;
-    height: auto;
-}
-.row {
+.container {
     background-color: bisque;
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+
+.section-title {
+    width: 25%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
 
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 
+.content1 {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
 
-  
+.content-title {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.work {
+    width: 50;
+}
+
+.duties p {
+    width: 50;
+}
+
+.footer {
+    width: 25;
+
+}
