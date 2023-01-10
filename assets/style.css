@@ -64,7 +64,12 @@ p {
     width: 75%;
 
 }
-
+.card-container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 25%;
+}
 img {
     width: 100%;
     height: auto;
